@@ -1326,6 +1326,7 @@
             updateLiveScoreboard();
             
             document.getElementById('nextBtn').style.display = 'inline-block';
+            document.getElementById('nextBtn').scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
 
         function nextQuestion() {
